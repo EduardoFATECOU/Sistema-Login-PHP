@@ -31,7 +31,7 @@ define('DB_CHARSET', 'utf8mb4');
 // =====================================================
 
 // URL base do sistema (ajuste conforme seu ambiente)
-define('BASE_URL', 'http://localhost/sistema-login/');
+define('BASE_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/sistema-login/');
 
 // Diretório raiz do sistema
 define('ROOT_PATH', __DIR__);
